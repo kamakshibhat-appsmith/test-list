@@ -37,17 +37,22 @@
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
               "topRow": 4,
               "bottomRow": 44,
-              "pageSize": 3,
+              "pageSize": 2,
               "parentRowSpace": 10,
+              "onPageChange": "{{Api1.run()}}",
               "type": "LIST_WIDGET_V2",
               "itemSpacing": 8,
               "hideCard": false,
               "templateBottomRow": 16,
               "mainContainerId": "lnfu4v0u5c",
               "animateLoading": true,
-              "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+              "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"Name\"] )}}",
               "parentColumnSpace": 18.0625,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onPageChange"
+                }
+              ],
               "dynamicBindingPathList": [
                 {
                   "key": "currentItemsView"
@@ -75,6 +80,7 @@
                 }
               ],
               "leftColumn": 24,
+              "serverSidePagination": true,
               "gridType": "vertical",
               "enhancements": true,
               "children": [
@@ -221,7 +227,7 @@
                               "leftColumn": 13,
                               "shouldTruncate": false,
                               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "text": "{{currentItem.name}}",
+                              "text": "{{currentItem.Name}}",
                               "key": "tt79ahom3i",
                               "isDeprecated": false,
                               "rightColumn": 25,
@@ -530,8 +536,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
-                "List1.pageSize",
-                "(List1.pageNo-1)*List1.pageSize"
+                "(List1.pageNo-1)*List1.pageSize",
+                "List1.pageSize"
               ],
               "timeoutInMillisecond": 10000
             }
