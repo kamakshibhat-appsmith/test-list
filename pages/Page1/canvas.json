@@ -3923,8 +3923,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
-                "List2.pageSize",
-                "(List2.pageNo-1)*List2.pageSize"
+                "(List2.pageNo-1)*List2.pageSize",
+                "List2.pageSize"
               ],
               "timeoutInMillisecond": 10000
             }
