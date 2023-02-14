@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1910,
+          "bottomRow": 1830,
           "containerStyle": "none",
           "snapRows": 76,
           "parentRowSpace": 1,
@@ -21,7 +21,9 @@
           "canExtend": true,
           "version": 76,
           "minHeight": 770,
+          "useAutoLayout": false,
           "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
@@ -627,7 +629,9 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             }
-          ]
+          ],
+          "positioning": "fixed",
+          "direction": "Vertical"
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
