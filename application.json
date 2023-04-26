@@ -103,7 +103,15 @@
   },
   "publishedApplicationDetail": {
     "navigationSetting": {
-      "logoAssetId": "64495477cb424b464cf1ee3d"
+      "showNavbar": true,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "theme",
+      "logoAssetId": "64495477cb424b464cf1ee3d",
+      "logoConfiguration": "logoOnly",
+      "showSignIn": true
     }
   },
   "color": "#FFEBFB",
