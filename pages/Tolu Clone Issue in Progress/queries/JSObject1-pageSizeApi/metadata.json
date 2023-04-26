@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "name": "pageSizeApi",
+    "fullyQualifiedName": "JSObject1.pageSizeApi",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,19 +13,17 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page7",
-    "collectionId": "Page7_JSObject1",
+    "pageId": "Tolu Clone Issue in Progress",
+    "collectionId": "Tolu Clone Issue in Progress_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,15 +32,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page7_JSObject1.myFun1",
+  "id": "Tolu Clone Issue in Progress_JSObject1.pageSizeApi",
   "deleted": false,
-  "gitSyncId": "63c7b3af28e4556443f046a4_63d3971b0e8cb34cbdd428c9"
+  "gitSyncId": "63c7b3af28e4556443f046a4_63d39e7eb1b93853eafd9ec3"
 }

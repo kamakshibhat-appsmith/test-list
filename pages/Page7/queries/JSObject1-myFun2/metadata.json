@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "pageSize1",
-    "fullyQualifiedName": "JSObject1.pageSize1",
+    "name": "myFun2",
+    "fullyQualifiedName": "JSObject1.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,18 +13,18 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Tolu Clone Issue in Progress",
-    "collectionId": "Tolu Clone Issue in Progress_JSObject1",
+    "pageId": "Page7",
+    "collectionId": "Page7_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => List77000.triggeredItemView?.List2.pageSize",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -33,15 +33,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => List77000.triggeredItemView?.List2.pageSize"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Tolu Clone Issue in Progress_JSObject1.pageSize1",
+  "id": "Page7_JSObject1.myFun2",
   "deleted": false,
-  "gitSyncId": "63c7b3af28e4556443f046a4_63d39bd81197bd5ee27f4cdc"
+  "gitSyncId": "63c7b3af28e4556443f046a4_63d3971b0e8cb34cbdd428c7"
 }

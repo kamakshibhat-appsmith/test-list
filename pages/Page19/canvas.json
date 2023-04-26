@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 78,
           "minHeight": 770,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -33,13 +33,18 @@
               "requiresFlatWidgetChildren": true,
               "listData": "{{Query1.data}}",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onPageChange"
+                }
+              ],
               "displayName": "List",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
-              "topRow": 17,
-              "bottomRow": 107,
-              "pageSize": 7,
+              "topRow": 1,
+              "bottomRow": 84,
+              "pageSize": 6,
               "parentRowSpace": 10,
-              "onPageChange": "{{Query1.run()}}",
+              "onPageChange": "",
               "type": "LIST_WIDGET_V2",
               "itemSpacing": 8,
               "hideCard": false,
@@ -64,9 +69,6 @@
                   "key": "triggeredItemView"
                 },
                 {
-                  "key": "primaryKeys"
-                },
-                {
                   "key": "accentColor"
                 },
                 {
@@ -77,10 +79,13 @@
                 },
                 {
                   "key": "listData"
+                },
+                {
+                  "key": "primaryKeys"
                 }
               ],
-              "leftColumn": 16,
-              "serverSidePagination": false,
+              "leftColumn": 0,
+              "serverSidePagination": true,
               "gridType": "vertical",
               "enhancements": true,
               "children": [
@@ -88,7 +93,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 900,
+                  "bottomRow": 830,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -344,7 +349,7 @@
               "key": "3n9z4o0kya",
               "backgroundColor": "transparent",
               "isDeprecated": false,
-              "rightColumn": 59,
+              "rightColumn": 61,
               "itemBackgroundColor": "#FFFFFF",
               "widgetId": "ooffbk5r98",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",

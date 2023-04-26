@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "offsetApi",
-    "fullyQualifiedName": "JSObject1.offsetApi",
+    "name": "pageNo1",
+    "fullyQualifiedName": "JSObject1.pageNo1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -19,7 +19,6 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => ((List77000.triggeredItemView?.List2.pageNo || 1) - 1) * (List77000.triggeredItemView?.List2.pageSize || 1)",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -33,15 +32,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => ((List77000.triggeredItemView?.List2.pageNo || 1) - 1) * (List77000.triggeredItemView?.List2.pageSize || 1)"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Tolu Clone Issue in Progress_JSObject1.offsetApi",
+  "id": "Tolu Clone Issue in Progress_JSObject1.pageNo1",
   "deleted": false,
-  "gitSyncId": "63c7b3af28e4556443f046a4_63d39e81b1b93853eafd9ec5"
+  "gitSyncId": "63c7b3af28e4556443f046a4_63d39da2c7293b4491824fcc"
 }

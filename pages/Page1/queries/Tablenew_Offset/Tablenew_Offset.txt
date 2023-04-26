@@ -1,0 +1,1 @@
+SELECT * FROM users ORDER BY id LIMIT {{Listnew.pageSize}} OFFSET {{(Listnew.pageNo-1)*Listnew.pageSize}};

@@ -13,13 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page4",
-    "collectionId": "Page4_JSObject1",
+    "pageId": "Page7",
+    "collectionId": "Page7_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,15 +33,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page4_JSObject1.myFun1",
+  "id": "Page7_JSObject1.myFun1",
   "deleted": false,
-  "gitSyncId": "63c7b3af28e4556443f046a4_63c923453919d47be10316c7"
+  "gitSyncId": "63c7b3af28e4556443f046a4_63d3971b0e8cb34cbdd428c9"
 }
