@@ -93,6 +93,11 @@
       "logoAssetId": "64495477cb424b464cf1ee3d"
     }
   },
+  "publishedApplicationDetail": {
+    "navigationSetting": {
+      "logoAssetId": "64495477cb424b464cf1ee3d"
+    }
+  },
   "color": "#FFEBFB",
   "icon": "football",
   "unpublishedCustomJSLibs": [],
