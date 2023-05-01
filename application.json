@@ -89,6 +89,9 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
     "navigationSetting": {
       "showNavbar": true,
       "orientation": "top",
@@ -116,6 +119,9 @@
   },
   "color": "#FFEBFB",
   "icon": "football",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

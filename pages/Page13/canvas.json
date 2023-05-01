@@ -19,8 +19,9 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 78,
           "minHeight": 770,
+          "useAutoLayout": false,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
@@ -35,8 +36,8 @@
               "isCanvas": true,
               "displayName": "List V2",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
-              "topRow": 12,
-              "bottomRow": 52,
+              "topRow": 0,
+              "bottomRow": 40,
               "pageSize": 3,
               "parentRowSpace": 10,
               "type": "LIST_WIDGET_V2",
@@ -71,7 +72,7 @@
                   "key": "boxShadow"
                 }
               ],
-              "leftColumn": 32,
+              "leftColumn": 0,
               "gridType": "vertical",
               "enhancements": true,
               "children": [
@@ -87,12 +88,14 @@
                   "dropDisabled": true,
                   "openParentPropertyPane": true,
                   "minHeight": 400,
+                  "useAutoLayout": false,
                   "noPad": true,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
                   "children": [
                     {
+                      "mobileWidthInPercentage": 0.9890625,
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "widgetName": "Container1",
                       "borderColor": "#E0DEDE",
@@ -106,7 +109,7 @@
                         "group"
                       ],
                       "topRow": 0,
-                      "bottomRow": 12,
+                      "bottomRow": 15.2,
                       "dragDisabled": true,
                       "type": "CONTAINER_WIDGET",
                       "hideCard": false,
@@ -127,15 +130,19 @@
                           "widgetName": "Canvas2",
                           "displayName": "Canvas",
                           "topRow": 0,
+                          "bottomRow": 152,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
                           "hideCard": true,
+                          "minHeight": 140,
+                          "useAutoLayout": false,
                           "parentColumnSpace": 1,
                           "leftColumn": 0,
                           "dynamicBindingPathList": [],
                           "children": [
                             {
+                              "mobileWidthInPercentage": 0.24375,
                               "boxShadow": "none",
                               "widgetName": "Image1",
                               "displayName": "Image",
@@ -211,10 +218,11 @@
                               "text": "{{currentItem.name}}",
                               "key": "tt79ahom3i",
                               "isDeprecated": false,
-                              "rightColumn": 28,
+                              "rightColumn": 64,
                               "textAlign": "LEFT",
                               "dynamicHeight": "FIXED",
                               "widgetId": "bx3rbype0v",
+                              "minWidth": 450,
                               "isVisible": true,
                               "fontStyle": "BOLD",
                               "textColor": "#231F20",
@@ -238,8 +246,8 @@
                                 "paragraph",
                                 "label"
                               ],
-                              "topRow": 4,
-                              "bottomRow": 8,
+                              "topRow": 9.2,
+                              "bottomRow": 13.2,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
@@ -260,16 +268,17 @@
                                   "key": "borderRadius"
                                 }
                               ],
-                              "leftColumn": 16,
+                              "leftColumn": 0,
                               "shouldTruncate": false,
                               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "text": "{{currentItem.id}}",
                               "key": "tt79ahom3i",
                               "isDeprecated": false,
-                              "rightColumn": 24,
+                              "rightColumn": 64,
                               "textAlign": "LEFT",
                               "dynamicHeight": "FIXED",
                               "widgetId": "ns5c63y4dt",
+                              "minWidth": 450,
                               "isVisible": true,
                               "fontStyle": "BOLD",
                               "textColor": "#231F20",
@@ -284,6 +293,7 @@
                               "minDynamicHeight": 4
                             }
                           ],
+                          "positioning": "fixed",
                           "key": "zjulezi6tj",
                           "isDeprecated": false,
                           "detachFromLayout": true,
@@ -318,6 +328,7 @@
                       "minDynamicHeight": 10
                     }
                   ],
+                  "positioning": "fixed",
                   "key": "zjulezi6tj",
                   "isDeprecated": false,
                   "rightColumn": 433.5,
@@ -334,10 +345,11 @@
               "key": "ijxji9k6ch",
               "backgroundColor": "transparent",
               "isDeprecated": false,
-              "rightColumn": 56,
+              "rightColumn": 64,
               "itemBackgroundColor": "#FFFFFF",
               "widgetId": "7tx26tq0te",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
               "isVisible": true,
               "parentId": "0",
               "hasMetaWidgets": true,
@@ -353,7 +365,8 @@
               ],
               "selectedItemView": "{{{}}}"
             }
-          ]
+          ],
+          "positioning": "fixed"
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],

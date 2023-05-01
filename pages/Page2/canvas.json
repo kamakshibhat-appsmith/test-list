@@ -19,8 +19,8 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
-          "minHeight": 770,
+          "version": 78,
+          "minHeight": 1780,
           "useAutoLayout": false,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -200,8 +200,8 @@
               "isCanvas": true,
               "displayName": "List",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
-              "topRow": 7,
-              "bottomRow": 183,
+              "topRow": 0,
+              "bottomRow": 176,
               "parentRowSpace": 10,
               "type": "LIST_WIDGET",
               "hideCard": false,
@@ -209,7 +209,7 @@
               "animateLoading": true,
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -612,16 +612,18 @@
                   "isLoading": false
                 }
               ],
+              "positioning": "fixed",
               "privateWidgets": {
                 "undefined": true
               },
               "key": "jsbpmqmmb2",
               "backgroundColor": "#93c5fd",
               "isDeprecated": false,
-              "rightColumn": 63,
+              "rightColumn": 64,
               "itemBackgroundColor": "#14532d",
               "widgetId": "ces87rcwat",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
               "isVisible": true,
               "parentId": "0",
               "serverSidePaginationEnabled": true,
