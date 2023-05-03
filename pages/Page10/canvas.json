@@ -19,12 +19,16 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 78,
           "minHeight": 770,
+          "useAutoLayout": true,
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [],
+          "positioning": "vertical",
+          "flexLayers": []
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
